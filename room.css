@@ -1,0 +1,71 @@
+tr { cursor: default; }
+
+body{ font: 14px sans-serif; }
+    
+label, input {
+    float: none; /* if you had floats before? otherwise inline-block will behave differently */
+    display: inline-block;
+    vertical-align: middle;    
+}
+
+.rack-empty { background: white; }
+
+.server-empty { background: white; }
+
+.rack-present {	background: green; }
+
+.server-present {  background: green; }
+
+.rack-empty_highlight { background: yellow; }
+
+.server-empty_highlight { background: yellow; }
+
+.rack-present_highlight {	background: yellow; }
+
+.server-present_highlight { background: yellow; }
+
+.page-bottom {
+ 	overflow: hidden;
+  	bottom: 0;
+  	width: 100%;
+  }
+
+.hide-block {
+    display: none;    
+}
+
+#page-rack-create {
+    float:left;
+}
+
+#page-server-create {
+    float:left;
+}
+
+#page-rack-info {
+    float:left;
+}
+
+#page-server-info {
+    width: 30%;
+    float:left;
+}
+
+#room {
+  text-align: center; 
+}
+
+.infobulle {
+    position: absolute;   
+    visibility : hidden;
+    border: 1px solid Black;
+    padding: 10px;
+    font-family: Verdana, Arial;
+    font-size: 10px;
+    background-color: #FFFFCC;
+}
+
+.rack-inf {  
+    /*visibility : hidden;*/
+}
+
